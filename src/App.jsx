@@ -11,18 +11,19 @@ import Contact from './pages/Contact';
 const App = () => {
   return (
     <Router>
-      <Navbar />
-
-      <main className="w-full">
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/services" element={<Services />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/portfolio" element={<Portfolio />} />
-          <Route path="/team" element={<Team />} />
-          <Route path="/contact" element={<Contact />} />
-        </Routes>
-      </main>
+      <div className="w-full min-h-screen overflow-x-hidden">
+        <Navbar />
+        <main className="w-full">
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/services" element={<Services />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/portfolio" element={<Portfolio />} />
+            <Route path="/team" element={<Team />} />
+            <Route path="/contact" element={<Contact />} />
+          </Routes>
+        </main>
+      </div>
     </Router>
   );
 };
