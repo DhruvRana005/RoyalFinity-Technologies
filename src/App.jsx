@@ -11,9 +11,9 @@ import Contact from './pages/Contact';
 const App = () => {
   return (
     <Router>
-      <div className="w-full min-h-screen overflow-x-hidden">
+      <div className="w-full min-h-screen bg-[#050816] overflow-x-hidden">
         <Navbar />
-        <main className="w-full">
+        <main className="w-full overflow-x-hidden">
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/services" element={<Services />} />

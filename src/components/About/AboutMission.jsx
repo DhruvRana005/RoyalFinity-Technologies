@@ -2,16 +2,16 @@ import React from 'react';
 
 export default function AboutMission() {
   return (
-    <section className="relative min-h-screen bg-[radial-gradient(circle_at_top,_#f3f4f6,_#ffffff_40%,_#f9fafb_100%)] px-6 py-24">
+    <section className="relative min-h-screen px-6 py-24">
       <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-16 items-center">
         <div>
           <div className="group mb-10 inline-flex items-center gap-2 rounded-full border border-amber-200 bg-white/70 px-6 py-3 text-sm font-medium tracking-[0.18em] text-amber-700 shadow-sm backdrop-blur-md transition-all duration-300 hover:border-transparent hover:bg-gradient-to-r hover:from-pink-500 hover:via-orange-400 hover:to-yellow-400 hover:text-white hover:shadow-lg hover:scale-105">
             OUR MISSION
           </div>
 
-          <h1 className="text-4xl md:text-6xl font-semibold leading-[1.15] tracking-tight text-slate-900">
+          <h1 className="text-4xl md:text-6xl font-semibold leading-[1.15] tracking-tight text-white">
             Building{' '}
-            <span className="text-slate-900"> </span>
+            <span className="text-white"> </span>
             <span className="bg-gradient-to-r from-amber-500 to-yellow-400 bg-clip-text text-transparent">
               Tomorrow's
             </span>
@@ -19,10 +19,10 @@ export default function AboutMission() {
             <span className="bg-gradient-to-r from-amber-500 via-orange-400 to-yellow-400 bg-clip-text text-transparent">
               Technology
             </span>{' '}
-            <span className="text-slate-900">Today</span>
+            <span className="text-white">Today</span>
           </h1>
 
-          <p className="mt-8 text-lg leading-8 text-slate-500 max-w-xl">
+          <p className="mt-8 text-lg leading-8 text-white max-w-xl">
             To empower businesses with intelligent technology and carefully crafted
             strategies that drive measurable results, foster growth, and create
             lasting impact. We focus on delivering solutions that not only meet

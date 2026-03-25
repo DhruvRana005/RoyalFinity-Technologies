@@ -1,10 +1,13 @@
 import React from 'react'
-import AboutTop from '../components/AboutTop'
-import AboutStory from '../components/AboutStory'
-import AboutMission from '../components/AboutMission'
-import AboutVision from '../components/AboutVision'
-import AboutCore from '../components/AboutCore'
-import AboutTeam from '../components/AboutTeam'
+import AboutTop from '../components/About/AboutTop'
+import AboutStory from '../components/About/AboutStory'
+import AboutMission from '../components/About/AboutMission'
+import AboutVision from '../components/About/AboutVision'
+import AboutCore from '../components/About/AboutCore'
+import AboutTeam from '../components/About/AboutTeam'
+import AboutImpact from '../components/About/AboutImpact'
+import AboutFuture from '../components/About/AboutFuture'
+import Footer from '../components/Footer'
 
 const About = () => {
   return (
@@ -15,6 +18,9 @@ const About = () => {
        <AboutVision />
        <AboutCore />
        <AboutTeam />
+       <AboutImpact />
+       <AboutFuture />
+       <Footer />
     </>
   )
 }

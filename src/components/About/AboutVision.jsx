@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function AboutVision() {
   return (
-    <section className="relative min-h-screen bg-[radial-gradient(circle_at_top,_#f3f4f6,_#ffffff_40%,_#f9fafb_100%)] px-6 py-24">
+    <section className="relative min-h-screen px-6 py-24">
       <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-16 items-center">
 
         <div className="flex justify-center">
@@ -20,7 +20,7 @@ export default function AboutVision() {
             OUR VISION
           </div>
 
-          <h1 className="text-4xl md:text-6xl font-semibold leading-[1.15] tracking-tight text-slate-900">
+          <h1 className="text-4xl md:text-6xl font-semibold leading-[1.15] tracking-tight text-white">
             Building{' '}
             <span className="bg-gradient-to-r from-amber-500 to-yellow-400 bg-clip-text text-transparent">
               Tomorrow's
@@ -29,10 +29,10 @@ export default function AboutVision() {
             <span className="bg-gradient-to-r from-amber-500 via-orange-400 to-yellow-400 bg-clip-text text-transparent">
               Technology
             </span>{' '}
-            <span className="text-slate-900">Today</span>
+            <span className="text-white">Today</span>
           </h1>
 
-          <p className="mt-8 text-lg leading-8 text-slate-500 max-w-xl">
+          <p className="mt-8 text-lg leading-8 text-white max-w-xl">
             At Royalfinity Technologies, our vision is simple — to stand by businesses as a trusted partner on their digital journey. We want to create solutions that don't just work for today, but also prepare you for tomorrow. For us, it's not just about technology; it's about building long-term relationships, solving real challenges, and making a positive impact. Our goal is to be the team you can count on whenever you think of growth, innovation, and the future.
           </p>
         </div>

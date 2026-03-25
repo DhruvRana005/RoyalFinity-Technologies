@@ -2,17 +2,17 @@ import React from 'react';
 
 const Hero = () => {
     return (
-        <section className="relative min-h-screen overflow-hidden text-white">
-            <video className="absolute top-0 left-0 w-full h-full object-cover scale-110" autoPlay muted loop playsInline>
+        <section className="relative min-h-screen overflow-hidden text-white will-change-transform">
+            <video className="absolute top-0 left-0 w-full h-full object-cover" autoPlay muted loop playsInline>
                 <source src="/tech.mp4" type="video/mp4" />
             </video>
 
             <div className="absolute inset-0 bg-black/60" />
             <div className="absolute inset-0 bg-[linear-gradient(rgba(255,255,255,0.05)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,0.05)_1px,transparent_1px)] bg-[size:44px_44px] opacity-30" />
-            <div className="relative z-10 flex min-h-screen w-full flex-col items-center justify-center px-4 sm:px-6 lg:px-12">
+            <div className="relative z-10 flex min-h-screen w-full flex-col items-center justify-center px-4 sm:px-6 lg:px-12 pt-20">
                 <div className="w-full max-w-6xl text-center">
                     <div className="group mb-6 inline-block relative">
-                        <div className="relative mt-20 px-6 py-2 rounded-full border border-yellow-400/40 bg-transparent text-yellow-400 text-sm sm:text-base transition-all duration-300 hover:bg-yellow-400 hover:text-black">
+                        <div className="relative px-6 py-2 rounded-full border border-yellow-400/40 bg-transparent text-yellow-400 text-sm sm:text-base transition-all duration-300 hover:bg-yellow-400 hover:text-black">
                             Let's Grow Together 🚀
                         </div>
                     </div>
